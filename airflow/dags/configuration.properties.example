@@ -1,0 +1,5 @@
+[Cloud Functions]
+abcnews = <value>
+abpnews = <value>
+cbcnews = <value>
+nytimes = <value>

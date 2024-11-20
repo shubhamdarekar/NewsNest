@@ -1,0 +1,4 @@
+apache-airflow==2.8.1
+google-auth==2.29.0
+pymongo==4.6.3
+pandas

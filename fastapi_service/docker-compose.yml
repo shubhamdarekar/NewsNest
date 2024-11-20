@@ -1,0 +1,11 @@
+version: '1'
+
+services:
+  auth-api:
+    build:
+      context: .
+    command: sh -c "uvicorn main:app --reload --port=8010 --host=0.0.0.0"
+    ports:
+      - 8010:8010
+    volumes:
+      - .:/app
